@@ -20,7 +20,7 @@ It was implemented on **Ubuntu VM** (with VS Code) and extended using **Docker**
 | Jenkins Controller | <-----> | Agent-1 (VM) | <-----> | Agent-2 (Docker) |
 | (Ubuntu VM) | | Label: linux | | Label: docker-ubuntu |
 | Label: master | | | | |
-+--------------------+ +------------------+ +----------------------+
+
 
 markdown
 Copy

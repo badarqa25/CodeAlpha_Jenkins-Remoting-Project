@@ -51,7 +51,8 @@ Edit
   java -jar agent.jar -jnlpUrl http://<controller-ip>:8080/computer/agent-1/jenkins-agent.jnlp -secret <secret-key> -workDir "/home/jenkins-agent"
 Verified node came online
 
-Step 3: Distribute Build Loads
+**Step 3: Distribute Build Loads**
+
 Assigned labels to nodes:
 
 Controller → master
@@ -64,7 +65,8 @@ Created jobs restricted to specific nodes using label expressions
 
 Verified jobs executed on the correct machine
 
-Step 4: Security with Node Isolation
+**Step 4: Security with Node Isolation**
+
 Agents run as non-root users
 
 Enabled Agent-to-Controller Access Control
@@ -73,7 +75,8 @@ Applied firewall rules (only 8080 + agent port allowed)
 
 (Optional) Used SSH agents for secure connections
 
-Step 5: Multi-Architecture Execution
+**Step 5: Multi-Architecture Execution**
+
 Added Docker container as Agent-2
 
 Ran jobs on:
